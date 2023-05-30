@@ -1,5 +1,49 @@
 body{
-	color: lime;
-	font-family: "OCR A Std","Lucida Console", monospace;
-	background-color: #1C1C1C;
+	color: #FEFFEC;
+	font-family: "Calisto MT" serif;
+	background-image: url("Media_And_Resources/woodbg.jpg");
+	background-color:black;
+	margin: 0px 70px;
+}
+h1{
+	font-size:50px;
+}
+h2{
+	font-size:35px;
+}
+
+div.box{
+	background: rgb(0,0,0,0.4);
+	width: 1000px;
+	padding: 15px;
+}
+
+div.box h3{
+	font-size:24px;
+	font-weight: bold;
+	margin: 10px;
+}
+
+.button{
+	background-color: #1B3838;
+	border: none;
+  color: #FFB302;
+  padding: 16px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.2s;
+  cursor: pointer;
+	
+}
+
+.button:hover{
+	background-color:#FFB302;
+	color: #1B3838;
+}
+
+div.totklogo{
+
+	
 }
